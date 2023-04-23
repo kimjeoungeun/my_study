@@ -38,3 +38,18 @@
 # for s in list:
 #     print(s)
 
+# for i in range(5):
+#     pass 
+# print("완료")
+
+# for i in range(2, 31): # 2부터 30까지 숫자를 i에 대입해서
+#     if i%2==1: # 만약 홀수면
+#         pass # 아무것도 안하고 넘어감
+#     else:
+#         print(i) # 짝수면 출력
+
+for i in range(2,31):
+    if i%2==1:
+        continue
+    else:
+        print(i)

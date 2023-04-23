@@ -55,12 +55,12 @@ for i in number:
 #         print(i)
 
 # for i in range(2, 31):
-#     if 1%2==1:
-#         #continue
+#     if i%2==1:
+#         continue
 #         pass # 아무것도안하고 그냥 넘어갈 때
 #     else:
 #         print(i)
-    # print("반복") # pass는 출력되고 continue는 출력되지않음
+#     print("반복") # pass는 출력되고 continue는 출력되지않음
 
 # pass
 # 아무런 동작도 하지않고 넘어갈때 사용
@@ -84,15 +84,15 @@ for i in number:
 # reversed
 # 뒤집는 함수(내장함수)
 
-# money=2000
-# price=1000
-# coffee=5
-# for i in range(coffee): # 반복을 원하는 횟수(0~4)
-#     print("커피를 구매했습니다.")
-#     money-=price
-#     print("남은커피:", coffee -1 -i) # 4~0
-#     if money <price : # 0 이하로 떨어졌을 때 탈출(안쓰면 0원 밑으로 내려가도 계속 반복)
-#         break
+money=2000
+price=1000
+coffee=5
+for i in range(coffee): # 반복을 원하는 횟수(0~4)
+    print("커피를 구매했습니다.")
+    money-=price
+    print("남은커피:", coffee -1 -i) # 4~0
+    if money <price : # 0 이하로 떨어졌을 때 탈출(안쓰면 0원 밑으로 내려가도 계속 반복)
+        break
 # 반복하면 i값이 바뀐다.
 
 # for i in range(1, coffee+1):
