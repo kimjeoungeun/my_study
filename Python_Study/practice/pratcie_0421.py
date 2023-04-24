@@ -48,8 +48,8 @@
 #     else:
 #         print(i) # 짝수면 출력
 
-for i in range(2,31):
-    if i%2==1:
-        continue
-    else:
-        print(i)
+# for i in range(2,31):
+#     if i%2==1:
+#         continue
+#     else:
+#         print(i)
