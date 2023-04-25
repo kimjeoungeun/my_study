@@ -85,7 +85,7 @@ def 함수이름(함수입력값):
 #     print(get_name()) # 실행하면 내 이름이 출력
 # print_my_name() # 호출
 
-# # return이 있어도 되고 없어도 되는데 차이가 있다.
+# return이 있어도 되고 없어도 되는데 차이가 있다.
 # a=print_names() # 정의 함수 안에 return 키워드가 없음 
 # b=get_name() # 정의 함수 안에 return 키워드가 있음
 # print(a) # None (수행 후 종료)
