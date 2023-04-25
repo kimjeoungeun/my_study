@@ -67,7 +67,7 @@
 # with문
 # open - cloese를 자동으로 해준다
 # with open("Python_Study/새파일.txt", 'a', encoding="utf-8") as f:
-#     f.write("end of file")
+#     f.write("en of file")
 #     f.write("2")
 #     f.write("3")
 #     f.write("4") # close 생략 가능(이미 기능에 부여되어짐)
