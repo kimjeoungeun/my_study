@@ -52,3 +52,5 @@ class MaxLimitCalculator(MyCalculator):
                 print(f"{n1}/{n2}={n1/n2}")
 max_limit=MaxLimitCalculator()
 max_limit.div(50,0)
+
+# https://wana.tistory.com/13
