@@ -37,8 +37,8 @@ from 모듈이름 import *
 #    print(__name__) # 결과 : my_module_1, main에 모듈 이름만 나옴
 
 from my_calculator import MyCalculator
-# my_calculator=MyCalculator()
-# my_calculator.div(10,0)
+my_calculator=MyCalculator()
+my_calculator.div(10,0)
 # 컨트롤+메소드(div)클릭하면 정의된 부분으로 이동
 # 상속으로 0으로 나누지못하게 하는 법
 class ZeroCalculator(MyCalculator): # 새로운 하위 클래스를 만듬
@@ -49,3 +49,4 @@ class ZeroCalculator(MyCalculator): # 새로운 하위 클래스를 만듬
             print(f"{n1}/{n2}={n1/n2}") # 아니면 div 함수
 zero_calculator=ZeroCalculator()
 zero_calculator.div(10,0)
+
