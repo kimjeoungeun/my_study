@@ -101,10 +101,12 @@ class MaxLimitCalculator(MyCalculator):
             result=n1/n2
         except ZeroDivisionError:
             print("0으로 나눌 수 없습니다.")
-        if result>100:
-            print("100보다 작은 수를 입력하세요.")
+        
         else:
-            print(f"{n1}/{n2}={n1/n2}")
+            if result>100:
+                print("100보다 작은 수를 입력하세요.")
+            else:
+                print(f"{n1}/{n2}={n1/n2}")
 
 max_limit=MaxLimitCalculator() # 초기화(객체를 초기상태로 만들어둠)
 max_limit.div(50,0)
