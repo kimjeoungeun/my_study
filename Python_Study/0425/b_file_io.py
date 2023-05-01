@@ -104,7 +104,7 @@
 # 읽어와서 더하는 함수를 정의하세요
 # 텍스트 파일 이름 : add_number.txt
 # 경로 : Python_Study/add_number.txt
-# 정수 2개를 더한 결과를 print 하세요
+# 정수 2개를 더한 결과를 print 하세요.
 # 함수 이름 : read_add_print
 
 def read_add_print():
