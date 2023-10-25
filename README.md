@@ -1,5 +1,5 @@
 # my_study
-## Python_study 20230417~20230918
+## Python_study 20230417~
 
 
 # 마크다운 작성법
